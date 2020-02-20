@@ -1,0 +1,487 @@
+(base) PS C:\Users\Alan Cervantes> pwd
+
+Path
+----
+C:\Users\Alan Cervantes
+
+
+(base) PS C:\Users\Alan Cervantes> mkdir Bedu
+
+
+    Directorio: C:\Users\Alan Cervantes
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       19/02/2020     23:22                Bedu
+
+
+(base) PS C:\Users\Alan Cervantes> pwd
+
+Path
+----
+C:\Users\Alan Cervantes
+
+
+(base) PS C:\Users\Alan Cervantes> ls
+
+
+    Directorio: C:\Users\Alan Cervantes
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       18/11/2019     22:21                .eclipse
+d-----       24/10/2019     22:36                .idlerc
+d-----       29/10/2019     22:24                .ipynb_checkpoints
+d-----       29/10/2019     22:24                .ipython
+d-----       29/10/2019     22:26                .matplotlib
+d-----       13/12/2019      0:01                .rkward
+d-----       19/11/2019      9:24                .VirtualBox
+d-r---       13/12/2019      0:12                3D Objects
+d-----       24/10/2019     22:59                Anaconda3
+d-----       19/02/2020     23:22                Bedu
+d-----       09/11/2019      1:22                bin
+d-r---       13/12/2019      0:12                Contacts
+d-----       18/11/2019     21:12                data
+d-r---       14/02/2020     15:17                Desktop
+d-r---       19/02/2020     19:07                Documents
+d-r---       19/02/2020     20:12                Downloads
+d-r---       19/12/2019     19:09                Favorites
+d-r---       13/12/2019      0:12                Links
+d-----       07/02/2020     22:00                Miniconda3
+d-r---       13/12/2019      0:12                Music
+dar--l       19/02/2020     11:47                OneDrive
+d-r---       18/02/2020     10:40                Pictures
+d-----       06/08/2019      4:18                Roaming
+d-r---       13/12/2019      0:12                Saved Games
+d-r---       13/12/2019      0:12                Searches
+d-r---       13/12/2019      0:12                Videos
+d-----       14/11/2019     14:27                VirtualBox VMs
+-a----       09/11/2019      1:22              0 .bashrc
+-a----       09/11/2019     14:57           3342 .bash_history
+-a----       09/11/2019      9:18             99 .bash_profile
+-a----       21/11/2019     16:39            393 .dbshell
+-a----       09/11/2019      1:30             61 .gitconfig
+-a----       18/11/2019     22:04              0 .mongorc.js
+-a----       08/02/2020     14:16          10388 .mycli-history
+-a----       08/02/2020     14:16         142627 .mycli.log
+-a----       08/02/2020     10:00           4213 .myclirc
+-a----       09/11/2019     12:07           4135 .viminfo
+-a----       29/10/2019     22:30           5092 Untitled.ipynb
+
+
+(base) PS C:\Users\Alan Cervantes> touch text1.txt text2.txt
+touch : El término 'touch' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ touch text1.txt text2.txt
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(base) PS C:\Users\Alan Cervantes> echo text1.txt
+text1.txt
+(base) PS C:\Users\Alan Cervantes> echo text1.txt text2.txt
+text1.txt
+text2.txt
+(base) PS C:\Users\Alan Cervantes> ls
+
+
+    Directorio: C:\Users\Alan Cervantes
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       18/11/2019     22:21                .eclipse
+d-----       24/10/2019     22:36                .idlerc
+d-----       29/10/2019     22:24                .ipynb_checkpoints
+d-----       29/10/2019     22:24                .ipython
+d-----       29/10/2019     22:26                .matplotlib
+d-----       13/12/2019      0:01                .rkward
+d-----       19/11/2019      9:24                .VirtualBox
+d-r---       13/12/2019      0:12                3D Objects
+d-----       24/10/2019     22:59                Anaconda3
+d-----       19/02/2020     23:22                Bedu
+d-----       09/11/2019      1:22                bin
+d-r---       13/12/2019      0:12                Contacts
+d-----       18/11/2019     21:12                data
+d-r---       14/02/2020     15:17                Desktop
+d-r---       19/02/2020     19:07                Documents
+d-r---       19/02/2020     20:12                Downloads
+d-r---       19/12/2019     19:09                Favorites
+d-r---       13/12/2019      0:12                Links
+d-----       07/02/2020     22:00                Miniconda3
+d-r---       13/12/2019      0:12                Music
+dar--l       19/02/2020     11:47                OneDrive
+d-r---       18/02/2020     10:40                Pictures
+d-----       06/08/2019      4:18                Roaming
+d-r---       13/12/2019      0:12                Saved Games
+d-r---       13/12/2019      0:12                Searches
+d-r---       13/12/2019      0:12                Videos
+d-----       14/11/2019     14:27                VirtualBox VMs
+-a----       09/11/2019      1:22              0 .bashrc
+-a----       09/11/2019     14:57           3342 .bash_history
+-a----       09/11/2019      9:18             99 .bash_profile
+-a----       21/11/2019     16:39            393 .dbshell
+-a----       09/11/2019      1:30             61 .gitconfig
+-a----       18/11/2019     22:04              0 .mongorc.js
+-a----       08/02/2020     14:16          10388 .mycli-history
+-a----       08/02/2020     14:16         142627 .mycli.log
+-a----       08/02/2020     10:00           4213 .myclirc
+-a----       09/11/2019     12:07           4135 .viminfo
+-a----       29/10/2019     22:30           5092 Untitled.ipynb
+
+
+(base) PS C:\Users\Alan Cervantes> ls
+
+
+    Directorio: C:\Users\Alan Cervantes
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       18/11/2019     22:21                .eclipse
+d-----       24/10/2019     22:36                .idlerc
+d-----       29/10/2019     22:24                .ipynb_checkpoints
+d-----       29/10/2019     22:24                .ipython
+d-----       29/10/2019     22:26                .matplotlib
+d-----       13/12/2019      0:01                .rkward
+d-----       19/11/2019      9:24                .VirtualBox
+d-r---       13/12/2019      0:12                3D Objects
+d-----       24/10/2019     22:59                Anaconda3
+d-----       19/02/2020     23:22                Bedu
+d-----       09/11/2019      1:22                bin
+d-r---       13/12/2019      0:12                Contacts
+d-----       18/11/2019     21:12                data
+d-r---       14/02/2020     15:17                Desktop
+d-r---       19/02/2020     19:07                Documents
+d-r---       19/02/2020     20:12                Downloads
+d-r---       19/12/2019     19:09                Favorites
+d-r---       13/12/2019      0:12                Links
+d-----       07/02/2020     22:00                Miniconda3
+d-r---       13/12/2019      0:12                Music
+dar--l       19/02/2020     11:47                OneDrive
+d-r---       18/02/2020     10:40                Pictures
+d-----       06/08/2019      4:18                Roaming
+d-r---       13/12/2019      0:12                Saved Games
+d-r---       13/12/2019      0:12                Searches
+d-r---       13/12/2019      0:12                Videos
+d-----       14/11/2019     14:27                VirtualBox VMs
+-a----       09/11/2019      1:22              0 .bashrc
+-a----       09/11/2019     14:57           3342 .bash_history
+-a----       09/11/2019      9:18             99 .bash_profile
+-a----       21/11/2019     16:39            393 .dbshell
+-a----       09/11/2019      1:30             61 .gitconfig
+-a----       18/11/2019     22:04              0 .mongorc.js
+-a----       08/02/2020     14:16          10388 .mycli-history
+-a----       08/02/2020     14:16         142627 .mycli.log
+-a----       08/02/2020     10:00           4213 .myclirc
+-a----       09/11/2019     12:07           4135 .viminfo
+-a----       29/10/2019     22:30           5092 Untitled.ipynb
+
+
+(base) PS C:\Users\Alan Cervantes> cp text1.txt Bedu
+cp : No se encuentra la ruta de acceso 'C:\Users\Alan Cervantes\text1.txt' porque no existe.
+En línea: 1 Carácter: 1
++ cp text1.txt Bedu
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan Cervantes\text1.txt:String) [Copy-Item], ItemNotFoundExce
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+
+(base) PS C:\Users\Alan Cervantes> touch text1.txt
+touch : El término 'touch' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ touch text1.txt
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(base) PS C:\Users\Alan Cervantes> echo text1.txt text2.txt
+text1.txt
+text2.txt
+(base) PS C:\Users\Alan Cervantes> ls
+
+
+    Directorio: C:\Users\Alan Cervantes
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       18/11/2019     22:21                .eclipse
+d-----       24/10/2019     22:36                .idlerc
+d-----       29/10/2019     22:24                .ipynb_checkpoints
+d-----       29/10/2019     22:24                .ipython
+d-----       29/10/2019     22:26                .matplotlib
+d-----       13/12/2019      0:01                .rkward
+d-----       19/11/2019      9:24                .VirtualBox
+d-r---       13/12/2019      0:12                3D Objects
+d-----       24/10/2019     22:59                Anaconda3
+d-----       19/02/2020     23:22                Bedu
+d-----       09/11/2019      1:22                bin
+d-r---       13/12/2019      0:12                Contacts
+d-----       18/11/2019     21:12                data
+d-r---       14/02/2020     15:17                Desktop
+d-r---       19/02/2020     19:07                Documents
+d-r---       19/02/2020     20:12                Downloads
+d-r---       19/12/2019     19:09                Favorites
+d-r---       13/12/2019      0:12                Links
+d-----       07/02/2020     22:00                Miniconda3
+d-r---       13/12/2019      0:12                Music
+dar--l       19/02/2020     11:47                OneDrive
+d-r---       18/02/2020     10:40                Pictures
+d-----       06/08/2019      4:18                Roaming
+d-r---       13/12/2019      0:12                Saved Games
+d-r---       13/12/2019      0:12                Searches
+d-r---       13/12/2019      0:12                Videos
+d-----       14/11/2019     14:27                VirtualBox VMs
+-a----       09/11/2019      1:22              0 .bashrc
+-a----       09/11/2019     14:57           3342 .bash_history
+-a----       09/11/2019      9:18             99 .bash_profile
+-a----       21/11/2019     16:39            393 .dbshell
+-a----       09/11/2019      1:30             61 .gitconfig
+-a----       18/11/2019     22:04              0 .mongorc.js
+-a----       08/02/2020     14:16          10388 .mycli-history
+-a----       08/02/2020     14:16         142627 .mycli.log
+-a----       08/02/2020     10:00           4213 .myclirc
+-a----       09/11/2019     12:07           4135 .viminfo
+-a----       29/10/2019     22:30           5092 Untitled.ipynb
+
+
+(base) PS C:\Users\Alan Cervantes> ls
+
+
+    Directorio: C:\Users\Alan Cervantes
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       18/11/2019     22:21                .eclipse
+d-----       24/10/2019     22:36                .idlerc
+d-----       29/10/2019     22:24                .ipynb_checkpoints
+d-----       29/10/2019     22:24                .ipython
+d-----       29/10/2019     22:26                .matplotlib
+d-----       13/12/2019      0:01                .rkward
+d-----       19/11/2019      9:24                .VirtualBox
+d-r---       13/12/2019      0:12                3D Objects
+d-----       24/10/2019     22:59                Anaconda3
+d-----       19/02/2020     23:22                Bedu
+d-----       09/11/2019      1:22                bin
+d-r---       13/12/2019      0:12                Contacts
+d-----       18/11/2019     21:12                data
+d-r---       14/02/2020     15:17                Desktop
+d-r---       19/02/2020     19:07                Documents
+d-r---       19/02/2020     20:12                Downloads
+d-r---       19/12/2019     19:09                Favorites
+d-r---       13/12/2019      0:12                Links
+d-----       07/02/2020     22:00                Miniconda3
+d-r---       13/12/2019      0:12                Music
+dar--l       19/02/2020     11:47                OneDrive
+d-r---       18/02/2020     10:40                Pictures
+d-----       06/08/2019      4:18                Roaming
+d-r---       13/12/2019      0:12                Saved Games
+d-r---       13/12/2019      0:12                Searches
+d-r---       13/12/2019      0:12                Videos
+d-----       14/11/2019     14:27                VirtualBox VMs
+-a----       09/11/2019      1:22              0 .bashrc
+-a----       09/11/2019     14:57           3342 .bash_history
+-a----       09/11/2019      9:18             99 .bash_profile
+-a----       21/11/2019     16:39            393 .dbshell
+-a----       09/11/2019      1:30             61 .gitconfig
+-a----       18/11/2019     22:04              0 .mongorc.js
+-a----       08/02/2020     14:16          10388 .mycli-history
+-a----       08/02/2020     14:16         142627 .mycli.log
+-a----       08/02/2020     10:00           4213 .myclirc
+-a----       09/11/2019     12:07           4135 .viminfo
+-a----       29/10/2019     22:30           5092 Untitled.ipynb
+
+
+(base) PS C:\Users\Alan Cervantes> cd desktop
+(base) PS C:\Users\Alan Cervantes\desktop> ls
+
+
+    Directorio: C:\Users\Alan Cervantes\desktop
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       14/01/2020     11:45                ACLARACION EDO
+d-----       14/01/2020     13:30                Aclaración Puebla
+d-----       06/11/2019     20:41                ALGO
+d-----       28/01/2020     11:24                Calculadoras
+d-----       09/11/2019     11:06                carpeta
+d-----       09/11/2019     11:05                carpeta1
+d-----       12/12/2019     18:36                DEAL DESK
+d-----       09/11/2019      1:17                Git
+d-----       09/11/2019      0:45                LEAD GEN
+d-----       10/12/2019     12:14                Legal
+d-----       09/11/2019     13:47                mi_proyecto
+d-----       14/12/2019     12:32                Nueva carpeta
+d-----       04/12/2019     13:03                Revenue Projection
+d-----       22/10/2019      0:18                TABLAS DINAMICAS
+-a----       30/01/2020     19:38          53299 1182D3D0.tmp
+-a----       14/01/2020     12:39          12827 Aclaración EDO.xlsx
+-a----       07/01/2020     11:40          11933 Aclaración San Luis Potosi..xlsx
+-a----       14/02/2020     15:17        2316982 ARBNB.csv
+-a----       30/01/2020     13:29         661465 BASE PARA PRUEBAS.xlsx
+-a----       17/12/2019     17:18          11167 Cambios Take rate..xlsx
+-a----       08/01/2020     12:37          15539 Chiapas ROOMS.xlsx
+-a----       23/01/2020     11:22          68700 Deal Desk Process.png
+-a----       14/01/2020      9:38          23000 Detalle Puebla.xlsx
+-a----       09/01/2020     10:18          11215 Hotel Colon.xlsx
+-a----       20/12/2019     13:57          10221 Hotel Rath.xlsx
+-a----       19/12/2019     10:23          16545 Hotelex sin Capex.xlsx
+-a----       23/01/2020     14:04          38800 mandarin carton.jpg
+-a----       07/10/2019     21:42           1446 Microsoft Edge.lnk
+-a----       07/02/2020      9:53           2403 Microsoft Teams.lnk
+-a----       15/01/2020     14:19         108176 Monterrey Cancun 2019.xlsx
+-a----       30/01/2020     13:21        2562432 OYO Mex - Deal Desk Master Tracker (4) (version 1).xlsx
+-a----       26/12/2019     14:09           9456 Paraiso Chiconcuac final.xlsx
+-a----       16/12/2019     18:09          10552 Posada el Zaguan.xlsx
+-a----       07/01/2020     17:28          15195 SAN LUIS TRN FINAL.xlsx
+-a----       21/01/2020     11:07           2294 Solstice Client.lnk
+-a----       12/11/2019      9:24           1897 Spotify.lnk
+-a----       04/02/2020     12:37          47223 Take Rate Class.xlsx
+-a----       30/01/2020     19:40          52379 TRN OF COC CDMX.pdf
+-a----       30/01/2020     19:42          23095 TRN OF COC CDMX.xlsx
+-a----       19/12/2019     19:12          17106 TRNof CoC Diciembre Central.xlsx
+-a----       15/10/2019     13:58           2244 WhatsApp.lnk
+
+
+(base) PS C:\Users\Alan Cervantes\desktop> echo text1.txt text2.txt
+text1.txt
+text2.txt
+(base) PS C:\Users\Alan Cervantes\desktop> ls
+
+
+    Directorio: C:\Users\Alan Cervantes\desktop
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       14/01/2020     11:45                ACLARACION EDO
+d-----       14/01/2020     13:30                Aclaración Puebla
+d-----       06/11/2019     20:41                ALGO
+d-----       28/01/2020     11:24                Calculadoras
+d-----       09/11/2019     11:06                carpeta
+d-----       09/11/2019     11:05                carpeta1
+d-----       12/12/2019     18:36                DEAL DESK
+d-----       09/11/2019      1:17                Git
+d-----       09/11/2019      0:45                LEAD GEN
+d-----       10/12/2019     12:14                Legal
+d-----       09/11/2019     13:47                mi_proyecto
+d-----       14/12/2019     12:32                Nueva carpeta
+d-----       04/12/2019     13:03                Revenue Projection
+d-----       22/10/2019      0:18                TABLAS DINAMICAS
+-a----       30/01/2020     19:38          53299 1182D3D0.tmp
+-a----       14/01/2020     12:39          12827 Aclaración EDO.xlsx
+-a----       07/01/2020     11:40          11933 Aclaración San Luis Potosi..xlsx
+-a----       14/02/2020     15:17        2316982 ARBNB.csv
+-a----       30/01/2020     13:29         661465 BASE PARA PRUEBAS.xlsx
+-a----       17/12/2019     17:18          11167 Cambios Take rate..xlsx
+-a----       08/01/2020     12:37          15539 Chiapas ROOMS.xlsx
+-a----       23/01/2020     11:22          68700 Deal Desk Process.png
+-a----       14/01/2020      9:38          23000 Detalle Puebla.xlsx
+-a----       09/01/2020     10:18          11215 Hotel Colon.xlsx
+-a----       20/12/2019     13:57          10221 Hotel Rath.xlsx
+-a----       19/12/2019     10:23          16545 Hotelex sin Capex.xlsx
+-a----       23/01/2020     14:04          38800 mandarin carton.jpg
+-a----       07/10/2019     21:42           1446 Microsoft Edge.lnk
+-a----       07/02/2020      9:53           2403 Microsoft Teams.lnk
+-a----       15/01/2020     14:19         108176 Monterrey Cancun 2019.xlsx
+-a----       30/01/2020     13:21        2562432 OYO Mex - Deal Desk Master Tracker (4) (version 1).xlsx
+-a----       26/12/2019     14:09           9456 Paraiso Chiconcuac final.xlsx
+-a----       16/12/2019     18:09          10552 Posada el Zaguan.xlsx
+-a----       07/01/2020     17:28          15195 SAN LUIS TRN FINAL.xlsx
+-a----       21/01/2020     11:07           2294 Solstice Client.lnk
+-a----       12/11/2019      9:24           1897 Spotify.lnk
+-a----       04/02/2020     12:37          47223 Take Rate Class.xlsx
+-a----       30/01/2020     19:40          52379 TRN OF COC CDMX.pdf
+-a----       30/01/2020     19:42          23095 TRN OF COC CDMX.xlsx
+-a----       19/12/2019     19:12          17106 TRNof CoC Diciembre Central.xlsx
+-a----       15/10/2019     13:58           2244 WhatsApp.lnk
+
+
+(base) PS C:\Users\Alan Cervantes\desktop> cp '.\OYO Mex - Deal Desk Master Tracker (4) (version 1).xlsx' carpeta1
+(base) PS C:\Users\Alan Cervantes\desktop> cd .\carpeta
+(base) PS C:\Users\Alan Cervantes\desktop\carpeta> ls
+(base) PS C:\Users\Alan Cervantes\desktop\carpeta> cd ..
+(base) PS C:\Users\Alan Cervantes\desktop> ls
+
+
+    Directorio: C:\Users\Alan Cervantes\desktop
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       14/01/2020     11:45                ACLARACION EDO
+d-----       14/01/2020     13:30                Aclaración Puebla
+d-----       06/11/2019     20:41                ALGO
+d-----       28/01/2020     11:24                Calculadoras
+d-----       09/11/2019     11:06                carpeta
+d-----       19/02/2020     23:29                carpeta1
+d-----       12/12/2019     18:36                DEAL DESK
+d-----       09/11/2019      1:17                Git
+d-----       09/11/2019      0:45                LEAD GEN
+d-----       10/12/2019     12:14                Legal
+d-----       09/11/2019     13:47                mi_proyecto
+d-----       14/12/2019     12:32                Nueva carpeta
+d-----       04/12/2019     13:03                Revenue Projection
+d-----       22/10/2019      0:18                TABLAS DINAMICAS
+-a----       30/01/2020     19:38          53299 1182D3D0.tmp
+-a----       14/01/2020     12:39          12827 Aclaración EDO.xlsx
+-a----       07/01/2020     11:40          11933 Aclaración San Luis Potosi..xlsx
+-a----       14/02/2020     15:17        2316982 ARBNB.csv
+-a----       30/01/2020     13:29         661465 BASE PARA PRUEBAS.xlsx
+-a----       17/12/2019     17:18          11167 Cambios Take rate..xlsx
+-a----       08/01/2020     12:37          15539 Chiapas ROOMS.xlsx
+-a----       23/01/2020     11:22          68700 Deal Desk Process.png
+-a----       14/01/2020      9:38          23000 Detalle Puebla.xlsx
+-a----       09/01/2020     10:18          11215 Hotel Colon.xlsx
+-a----       20/12/2019     13:57          10221 Hotel Rath.xlsx
+-a----       19/12/2019     10:23          16545 Hotelex sin Capex.xlsx
+-a----       23/01/2020     14:04          38800 mandarin carton.jpg
+-a----       07/10/2019     21:42           1446 Microsoft Edge.lnk
+-a----       07/02/2020      9:53           2403 Microsoft Teams.lnk
+-a----       15/01/2020     14:19         108176 Monterrey Cancun 2019.xlsx
+-a----       30/01/2020     13:21        2562432 OYO Mex - Deal Desk Master Tracker (4) (version 1).xlsx
+-a----       26/12/2019     14:09           9456 Paraiso Chiconcuac final.xlsx
+-a----       16/12/2019     18:09          10552 Posada el Zaguan.xlsx
+-a----       07/01/2020     17:28          15195 SAN LUIS TRN FINAL.xlsx
+-a----       21/01/2020     11:07           2294 Solstice Client.lnk
+-a----       12/11/2019      9:24           1897 Spotify.lnk
+-a----       04/02/2020     12:37          47223 Take Rate Class.xlsx
+-a----       30/01/2020     19:40          52379 TRN OF COC CDMX.pdf
+-a----       30/01/2020     19:42          23095 TRN OF COC CDMX.xlsx
+-a----       19/12/2019     19:12          17106 TRNof CoC Diciembre Central.xlsx
+-a----       15/10/2019     13:58           2244 WhatsApp.lnk
+
+
+(base) PS C:\Users\Alan Cervantes\desktop> cd .\carpeta1\
+(base) PS C:\Users\Alan Cervantes\desktop\carpeta1> ls
+
+
+    Directorio: C:\Users\Alan Cervantes\desktop\carpeta1
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       09/11/2019     11:05                1.1.1
+d-----       09/11/2019     11:05                carpeta
+d-----       09/11/2019     10:38                carpeta1.1
+d-----       09/11/2019     10:41                carpeta2
+-a----       09/11/2019     10:46              0 archivo1
+-a----       09/11/2019     10:51              0 archivo1.csv
+-a----       09/11/2019     10:53              0 archivo1.json
+-a----       09/11/2019     10:53              0 archivo1.py
+-a----       09/11/2019     10:53              0 archivo1.r
+-a----       09/11/2019     10:53              0 archivo1.sql
+-a----       09/11/2019     10:47              0 archivo1.txt
+-a----       30/01/2020     13:21        2562432 OYO Mex - Deal Desk Master Tracker (4) (version 1).xlsx
+
+
+(base) PS C:\Users\Alan Cervantes\desktop\carpeta1>
